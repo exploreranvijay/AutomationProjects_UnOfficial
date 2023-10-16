@@ -1,0 +1,11 @@
+2023-20-29 08:20:54 INFO  GenerateReportUsingLog4j:11 -Init the Properties Files...
+2023-21-29 08:21:01 INFO  GenerateReportUsingLog4j:13 -Opening the Browser:- chrome
+2023-21-29 08:21:33 INFO  GenerateReportUsingLog4j:15 -Navigating To Application :- https://www.amazon.in
+2023-21-29 08:21:36 INFO  GenerateReportUsingLog4j:17 -Selecting Books by Using Locator :- searchDropdownBox
+2023-21-29 08:21:39 INFO  GenerateReportUsingLog4j:19 -Typing Text Harry Potter by Using Locator :- field-keywords
+2023-25-29 08:25:46 INFO  GenerateReportUsingLog4j:11 -Init the Properties Files...
+2023-25-29 08:25:53 INFO  GenerateReportUsingLog4j:13 -Opening the Browser:- chrome
+2023-26-29 08:26:00 INFO  GenerateReportUsingLog4j:15 -Navigating To Application :- https://www.amazon.in
+2023-26-29 08:26:02 INFO  GenerateReportUsingLog4j:17 -Selecting Books by Using Locator :- searchDropdownBox
+2023-26-29 08:26:03 INFO  GenerateReportUsingLog4j:19 -Typing Text Harry Potter by Using Locator :- field-keywords
+2023-26-29 08:26:13 INFO  GenerateReportUsingLog4j:21 -Click on Element by Using Locator :- //input[@type='submit']
