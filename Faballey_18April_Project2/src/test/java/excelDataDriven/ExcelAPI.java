@@ -96,7 +96,7 @@ public class ExcelAPI {
 				return cellValue;
 			}
 			else if(cell.getCellTypeEnum()==CellType.BLANK)
-				return " ";
+				return "";
 			else
 				return String.valueOf(cell.getBooleanCellValue());
 			}

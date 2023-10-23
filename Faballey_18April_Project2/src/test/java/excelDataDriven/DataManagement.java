@@ -21,7 +21,7 @@ public class DataManagement {
         int dataStartRowNum=testStartRowNum+2;
         
         int rows=0;
-        while(!e.getCellData(sheetName, 0,dataStartRowNum+rows ).equals(" ")) {
+        while(!e.getCellData(sheetName, 0,dataStartRowNum+rows ).equals("")) {
         	rows++;
         }
         	System.out.println("Total Rows Are..:"+ rows);
@@ -32,7 +32,12 @@ public class DataManagement {
             	cols++;
             }
             	System.out.println("Total Column Are..:"+ cols);
-            	//Read The Test Data Logic Left
+            	//Read The Test Data Logic 
+             for(int rNum=dataStartRowNum;rNum<dataStartRowNum;rNum++) {
+            	 for(int cNum=0;cNum<cols;cNum++) {
+            		 System.out.println(e.getCellData(sheetName, cNum, rNum));
+            	 }
+             }
             	
 	}
 
