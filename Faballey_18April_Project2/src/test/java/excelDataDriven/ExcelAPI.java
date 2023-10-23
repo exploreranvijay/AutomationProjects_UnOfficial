@@ -33,8 +33,9 @@ public class ExcelAPI {
 		int rowCount=sheet.getLastRowNum()+1;
 		return rowCount;
 	}
-	public int columnCount(String sheetName) {
+	public int getColumnCount(String sheetName) {
 		sheet=workbook.getSheet(sheetName);
+		row=sheet.getRow(0);
 		int colCount=row.getLastCellNum();
 		return colCount;
 		
